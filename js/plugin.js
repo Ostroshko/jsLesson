@@ -77,7 +77,12 @@ let product =
     currency: 'dollar',
     details: {
         model: 10,
-        color: 'red'
+        color: 'blo'
     }
 }
+console.log(product)
+console.log(product)
+console.log(product)
+console.log(product)
+console.log(product)
 console.log(product)
