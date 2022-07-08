@@ -1,0 +1,86 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+bazel-*
+dist/
+localSourceMaps/
+/dist-server
+/tmp
+/out-tsc
+/src/assets/shell-env-config.json
+/src/assets/js/nrb.js
+/projects/reader/apps/reader-ui/src/config.json
+/projects/shell-app/src/assets/features/**
+!/projects/shell-app/src/assets/features/.gitkeep
+/projects/shell-app/src/assets/shell-env-config.json
+/projects/shell-app/src/assets/feature-assets.json
+/projects/shell-app/src/assets/js/nrb.js
+/projects/reader/apps/reader-ui/src/assets/new-relic/nrb.js
+/projects/analytics-and-reporting/src/lib/usage-report/ngrx-store/mhe-anr-usage-version/version.ts
+/projects/analytics-and-reporting/src/lib/performance-reports/ngrx-store/mhe-anr-perf-version/version.ts
+# dependencies
+node_modules/
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.iml
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/**
+.vscode/**
+
+# misc
+/.angular/cache
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+TESTS.xml
+/mismatches.json
+lerna-debug.log
+coverage/
+.npmrc
+/reports
+/test-results
+tools/gitHubDependencyTool/*.json
+tools/gitHubDependencyTool/.env*
+*~
+/projects/shell-app-e2e/local-protractor.conf.js
+/projects/shell-app-e2e/artifacts/
+/projects/shell-app-e2e/reports
+/projects/shell-app-e2e/test-results
+
+# e2e
+/e2e/*.js
+/e2e/*.map
+
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Terraform
+.terraform
+*.tfplan
+*.tfstate.backup
+*.tfstate.lock*
+*.terragrunt-cache
+*.plan
+terraform.d
+test-results.zip
+projects/reader/reports/*
